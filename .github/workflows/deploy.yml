@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Verify theme installed
-        run: ls node_modules/hexo-theme-butterfly/package.json && echo "Theme OK"
+      - name: Link theme to themes directory
+        run: ln -s $PWD/node_modules/hexo-theme-butterfly themes/butterfly
 
       - name: Generate static files
         run: npx hexo generate

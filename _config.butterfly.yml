@@ -29,11 +29,11 @@ menu:
 # Code Blocks Settings
 # --------------------------------------
 
-highlight_theme: mac
+highlight_theme: light
 code_word_wrap: false
 
 code_blocks:
-  theme: mac
+  theme: light
   macStyle: true
   height_limit: 350
   word_wrap: false

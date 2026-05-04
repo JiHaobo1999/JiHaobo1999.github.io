@@ -1,6 +1,11 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
 node_modules/
 public/
-.deploy_git/
-db.json
+.deploy*/
+_deploy*/
+_multiconfig.yml
 .worktrees/
 .superpowers/

@@ -20,16 +20,11 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Cache node modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       - name: Install dependencies
-        run: npm ci
+        run: npm install
+
+      - name: Verify theme installed
+        run: ls node_modules/hexo-theme-butterfly/package.json && echo "Theme OK"
 
       - name: Generate static files
         run: npx hexo generate

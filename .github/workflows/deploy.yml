@@ -21,10 +21,15 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm ls hexo-theme-butterfly
 
-      - name: Link theme to themes directory
-        run: ln -s $PWD/node_modules/hexo-theme-butterfly themes/butterfly
+      - name: Copy theme to themes directory
+        run: |
+          mkdir -p themes
+          cp -r node_modules/hexo-theme-butterfly themes/butterfly
+          ls themes/butterfly/package.json && echo "Theme copied successfully"
 
       - name: Generate static files
         run: npx hexo generate

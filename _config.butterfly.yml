@@ -48,7 +48,7 @@ highlight_height_limit: 350
 #   icon: link || the description || color
 social:
   fas fa-envelope: mailto:your-email@example.com || Email
-  fab fa-github: https://github.com/yourgithub || Github
+  fab fa-github: https://github.com/JiHaobo1999 || Github
   fab fa-rss: /atom.xml || RSS
 
 # --------------------------------------
@@ -208,7 +208,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: https://github.com/yourgithub
+  author_href: https://github.com/JiHaobo1999
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -291,7 +291,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/JiHaobo1999
   card_announcement:
     enable: true
     content: This is my Blog
@@ -617,7 +617,7 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: yourgithub/yourgithub.github.io
+  repo: JiHaobo1999/hyper.github.io
   repo_id: ''
   category_id: ''
   category: Announcements

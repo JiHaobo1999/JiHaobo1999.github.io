@@ -12,5 +12,5 @@ type: about
 
 ### 联系方式
 
-- GitHub: [@yourgithub](https://github.com/yourgithub)
+- GitHub: [@JiHaobo1999](https://github.com/JiHaobo1999)
 - Email: your-email@example.com

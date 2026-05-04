@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: YourName's Blog
+title: JiHaobo1999's Blog
 subtitle: ''
 description: '技术博客，记录学习与思考'
 keywords: '技术,编程,后端,Go,Python'
-author: YourName
+author: JiHaobo1999
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://yourgithub.github.io
+url: https://jihaobo1999.github.io/hyper.github.io
 root: /
 permalink: posts/:abbrlink.html
 permalink_defaults:
